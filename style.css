@@ -286,7 +286,7 @@ button { font: inherit; color: inherit; border: 0; background: none; padding: 0;
 }
 a.menu__link:hover, a.menu__link:focus-visible { color: var(--accent); outline: none; }
 .menu__link.is-locked:hover { color: var(--gray); }
-.menu__link.is-locked:hover .menu__lock img { content: url(../assets/lock-gray.svg); }
+.menu__link.is-locked:hover .menu__lock img { content: url(lock-gray.svg); }
 .menu__link:hover .menu__line,
 a.menu__link:focus-visible .menu__line { clip-path: inset(-2px 0 -2px 0); }
 
@@ -429,7 +429,7 @@ a.menu__link:focus-visible .menu__line { clip-path: inset(-2px 0 -2px 0); }
   position: absolute;
   width: 7.012%;
   aspect-ratio: 1;
-  background: url(../assets/head.png) no-repeat;
+  background: url(head.png) no-repeat;
   background-size: 1426.19% auto;
   -webkit-mask: radial-gradient(circle closest-side, #000 66%, transparent 100%);
   mask: radial-gradient(circle closest-side, #000 66%, transparent 100%);
